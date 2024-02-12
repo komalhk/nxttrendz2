@@ -1,0 +1,3 @@
+2024-02-12 09:28:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUCT" already exists; SQL statement:
+create table product ( id int primary key auto_increment, name varchar(255), description varchar(255), foreign key (description) references category(description), price double, categoryId int ) [42101-214]
